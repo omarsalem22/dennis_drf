@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "base.apps.BaseConfig"
+    "base.apps.BaseConfig",
+    "rest_framework"
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = "cados_api.wsgi.application"
 
 DATABASES = {
   "default": {
-"NAME": "cartapp",
+"NAME": "dennis_lvy_drf",
 "ENGINE": "django.db.backends.postgresql",
 "USER": "postgres",
 "PASSWORD": "123456789",
